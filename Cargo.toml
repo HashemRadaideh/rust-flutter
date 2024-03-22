@@ -1,13 +1,4 @@
-[package]
-name = "endham"
-version = "0.1.0"
-edition = "2021"
-
 [workspace]
 resolver = "2"
-members = ["server", "client"]
-default-members = ["server"]
-
-[[bin]]
-name = "server"
-path = "server/src/main.rs"
+members = ["api"]
+default-members = ["api"]
